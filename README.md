@@ -1,1 +1,1 @@
-# rollingstone-cover-story-charli-xcx
+https://shoneal.github.io/rollingstone-cover-story-charli-xcx/

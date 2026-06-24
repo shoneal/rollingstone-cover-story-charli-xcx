@@ -1,0 +1,62 @@
+.pagetop {
+  max-width: 100rem;
+  margin: 2.25rem auto 0;
+  border: 2px solid var(--border);
+}
+
+.image-card {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.image-card img {
+  position: absolute;
+}
+
+main header {
+  padding: 0.75rem 2.5rem 0.25rem;
+}
+
+.cover-story-kicker {
+  margin-top: 2.375rem;
+  margin-bottom: 1rem;
+}
+
+.article-title {
+  font-size: 5.5rem;
+  line-height: 4.75rem;
+}
+
+.article-wrapper .author {
+  margin-top: 20px;
+}
+
+.article-wrapper time {
+  margin: 0.5rem 0 0 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  main header {
+    max-width: 40rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .cover-story-kicker {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagetop {
+    margin: 1rem 1.5rem 0;
+  }
+
+  .image-card {
+    padding-bottom: 100%;
+  }
+
+  main header {
+    padding-inline: 1.25rem;
+  }
+}
