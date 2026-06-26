@@ -1,0 +1,16 @@
+.pagetop.without-video {
+  max-width: 100rem;
+  margin-top: 2.5rem;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .pagetop.without-video {
+    margin-top: 1rem;
+    margin-inline: 1.5rem;
+  }
+
+  .without-video img {
+    aspect-ratio: 1;
+  }
+}
